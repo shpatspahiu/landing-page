@@ -1,6 +1,5 @@
-.header,
-.top {
-  background-color: #1f2937;
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .header .logo {
@@ -12,6 +11,16 @@
   color: #f9faf8;
   font-size: 48px;
   font-weight: bolder;
+}
+
+.secondary-text {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.header {
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 .info-text {
@@ -26,6 +35,11 @@ ul {
   margin: 0;
 }
 
+p {
+  margin: 0;
+  padding: 0;
+}
+
 a {
   text-decoration: none;
   color: #e5e7eb;
@@ -38,4 +52,29 @@ img {
 
 button {
   background-color: #3882f6;
+}
+
+.header,
+.top {
+  background-color: #1f2937;
+}
+
+.mid-bottom {
+  background-color: #e5e7eb;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.bottom {
+  background-color: #3882f6;
+  color: #e5e7eb;
+}
+
+.action-text {
+  font-size: 18px;
+  font-weight: bolder;
 }
