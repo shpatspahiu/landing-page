@@ -22,6 +22,7 @@ body {
   color: #e5e7eb;
   font-size: 18px;
   display: flex;
+  padding: 12px;
   justify-content: space-between;
   align-items: center;
   width: 800px;
@@ -30,7 +31,8 @@ body {
 .top {
   display: flex;
   width: 800px;
-  padding: 32px;
+  padding: 16px;
+  flex-direction: row;
 }
 
 .mid-top {
@@ -39,16 +41,19 @@ body {
   align-items: center;
   flex-wrap: wrap;
   padding: 32px;
+  gap: 16px;
 }
 
 .mid-top .ilustrations {
   width: 800px;
   display: flex;
   text-align: center;
+  display: flex;
+  gap: 24px
 }
 
-.ilustration {
-  width: 300px;
+.ilustration div{
+  width: 150px;
 }
 
 .mid-bottom {
@@ -68,17 +73,23 @@ body {
 }
 
 .bottom {
-  background-color: #3882f6;
   color: #e5e7eb;
-  padding: 32px;
   display: flex;
   justify-content: center;
+  gap: 16px;
 }
 
-.bottom div {
+.bottom .container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882f6;
+  padding: 32px 100px;
+  border-radius: 12px;
+  margin: 60px;
   width: 800px;
   align-self: center;
 }
+
 
 footer {
   padding: 36px;
@@ -150,11 +161,14 @@ footer {
 .info-text {
   text-align: center;
   margin-bottom: 16px;
+ 
 }
 
 .action-text {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bolder;
+  margin-bottom: 6px;
+  padding: 0;
 }
 
 .btn-top,
@@ -173,4 +187,5 @@ footer {
 
 .btn-bottom {
   border: 1px solid #f9faf8;
+  flex: 0 1 auto;
 }
