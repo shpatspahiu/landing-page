@@ -1,0 +1,41 @@
+.header,
+.top {
+  background-color: #1f2937;
+}
+
+.header .logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.main-text {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.info-text {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+img {
+  border: 1px solid black;
+}
+
+button {
+  background-color: #3882f6;
+}
