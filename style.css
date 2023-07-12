@@ -30,12 +30,15 @@ body {
 .top {
   display: flex;
   width: 800px;
+  padding: 32px;
 }
 
 .mid-top {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
+  padding: 32px;
 }
 
 .mid-top .ilustrations {
@@ -44,16 +47,41 @@ body {
   text-align: center;
 }
 
+.ilustration {
+  width: 300px;
+}
+
 .mid-bottom {
+  padding: 32px;
   background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mid-bottom div {
+  width: 800px;
+}
+
+.mid-bottom .author {
+  font-weight: bolder;
 }
 
 .bottom {
   background-color: #3882f6;
   color: #e5e7eb;
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom div {
+  width: 800px;
+  align-self: center;
 }
 
 footer {
+  padding: 36px;
   display: flex;
   justify-content: center;
   align-items: center;
