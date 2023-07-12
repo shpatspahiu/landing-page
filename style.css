@@ -30,6 +30,19 @@ body {
   justify-content: space-between;
 }
 
+.top {
+  display: flex;
+}
+
+.ilustrations {
+  display: flex;
+  text-align: center;
+}
+
+.ilustration {
+  width: 300px;
+}
+
 ul {
   display: flex;
   gap: 8px;
