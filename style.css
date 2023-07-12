@@ -22,7 +22,7 @@ body {
   color: #e5e7eb;
   font-size: 18px;
   display: flex;
-  padding: 12px;
+  padding-top: 16px;
   justify-content: space-between;
   align-items: center;
   width: 800px;
@@ -31,8 +31,19 @@ body {
 .top {
   display: flex;
   width: 800px;
-  padding: 16px;
+  padding: 32px 0px;
   flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+.top .top-content {
+  padding-right: 36px;
+}
+
+.top-content .secondary-text{
+  padding-bottom: 16px;
+
 }
 
 .mid-top {
@@ -114,6 +125,7 @@ a {
   color: #f9faf8;
   font-size: 48px;
   font-weight: bolder;
+  padding-bottom: 16px;
 }
 
 ul {
