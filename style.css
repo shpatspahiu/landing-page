@@ -50,10 +50,6 @@ img {
   border: 1px solid black;
 }
 
-button {
-  background-color: #3882f6;
-}
-
 .header,
 .top {
   background-color: #1f2937;
@@ -77,4 +73,18 @@ button {
 .action-text {
   font-size: 18px;
   font-weight: bolder;
+}
+
+.btn-top,
+.btn-bottom {
+  background-color: #3882f6;
+  border: none;
+  color: #f9faf8;
+  border-radius: 4px;
+  font-weight: 600;
+  padding: 4px 18px;
+}
+
+.btn-bottom {
+  border: 1px solid #f9faf8;
 }
