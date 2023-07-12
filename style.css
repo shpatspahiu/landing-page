@@ -18,7 +18,9 @@ body {
   font-weight: bolder;
 }
 
-.secondary-text {
+.secondary-text,
+footer,
+a {
   color: #e5e7eb;
   font-size: 18px;
 }
@@ -67,8 +69,6 @@ p {
 
 a {
   text-decoration: none;
-  color: #e5e7eb;
-  font-size: 18px;
 }
 
 img {
@@ -76,7 +76,8 @@ img {
 }
 
 .header,
-.top {
+.top,
+footer {
   background-color: #1f2937;
 }
 
